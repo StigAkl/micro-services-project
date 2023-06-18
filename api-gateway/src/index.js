@@ -8,6 +8,10 @@ const config = JSON.parse(fs.readFileSync(configPath, "utf-8"));
 
 const app = express();
 
+app.get("/hello", (req, res) => {
+  res.status(200).send("Hi!");
+});
+
 for (let service in config.services) {
   app.use(
     `/${service}`,
