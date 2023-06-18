@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "phoneNumber": "1234567890",
+      "date": "1990-01-01",
+      "city": "Oslo",
+      "age": "33",
+      "email": "john.doe@example.com",
+      "ssn": "123456789"
+    },
+    {
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "phoneNumber": "9876543210",
+      "date": "1985-05-15",
+      "city": "Bergen",
+      "age": "38",
+      "email": "jane.smith@example.com",
+      "ssn": "987654321"
+    },
+    {
+      "id": "3",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "phoneNumber": "5551234567",
+      "date": "1995-12-10",
+      "city": "Trondheim",
+      "age": "27",
+      "email": "alice.johnson@example.com",
+      "ssn": "555123456"
+    }
+  ]
+}

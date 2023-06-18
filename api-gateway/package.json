@@ -1,0 +1,26 @@
+{
+  "name": "api-gateway",
+  "version": "0.0.1",
+  "description": "API gateway for my microservice architecture ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "api-gateway"
+  },
+  "keywords": [
+    "api-gateway",
+    "express",
+    "node",
+    "microservices"
+  ],
+  "author": "Stig A. Langeland",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "morgan": "^1.10.0"
+  }
+}
