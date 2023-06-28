@@ -3,7 +3,7 @@ const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 const crypto = require("crypto");
-
+const port = 1995;
 server.use(jsonServer.bodyParser);
 server.use(middlewares);
 
@@ -24,6 +24,6 @@ server.post("/auth/login", (req, res) => {
 
 server.use(router);
 
-server.listen(1995, () => {
-  console.log("JSON Server is running on http://localhost:1995");
+server.listen(port, () => {
+  console.log(`JSON Server is running on http://localhost:${port}`);
 });
